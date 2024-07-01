@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mcsim"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Rodrigues <gabrielsr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+esper = "^3.3"
+pyglet = "^2.0.15"
+python-dotenv = "^0.19.2"
+collision = "1.2.2"
+simpy = "^4.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
